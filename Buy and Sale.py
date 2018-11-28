@@ -5,7 +5,7 @@ def collectInput(q):
     i = input(q)
     return i
 
-answer = collectInput("Would you like to buy Ramen, Water, or Hot Pockets?")
+answer = collectInput("Would you like to buy Water, Snacks, Supplies, or Ramen?")
 answer2 = collectInput("How many do you need?")
 answer3 = collectInput("How much are you willing to spend??")
 answer4 = collectInput("So you would like " + answer + ", you need to have "+ answer2 + " and you're willing to spend " + answer3)
@@ -20,8 +20,11 @@ print (l)
 
 
 items = {
-    "water" : {"Poland Spring" : [4.39, 24], "Fiji" : [3.99, 1]},
-    "snacks" : {},
+    "Water" : {"Poland Spring" : [4.39, 24+"pack"], "Fiji" : [15.99, 4+"pack"], "Smart Water" : [14.99, 12+"pack"]},
+    "Snacks" : {"Oreos" : [3, 36+"cookies"],
+        "Spicy Nacho Cheese Doritos" : [4.29, 1+"bag"],
+        "Cool Ranch Doritos" :[4.29, 1+"bag"],
+        "M&M Variety Pack" : [19.79, 18+"pack"]},
     "supplies" : {},
     "Ramen" : {}
 }
