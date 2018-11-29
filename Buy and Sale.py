@@ -33,3 +33,5 @@ water = items["water"]
 poland = water["Poland Spring"]
 
 print(items["water"]["Poland Spring"][0])
+
+# Rce cakes ($2.69), lucky charms ($3.49), Instant Coffee (3.87), Lipton Tea (7.04), Hummus ($13.99), Pita Chips ($14.69)
