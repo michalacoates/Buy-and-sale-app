@@ -35,3 +35,37 @@ poland = water["Poland Spring"]
 print(items["water"]["Poland Spring"][0])
 
 # Rce cakes ($2.69), lucky charms ($3.49), Instant Coffee (3.87), Lipton Tea (7.04), Hummus ($13.99), Pita Chips ($14.69)
+<html>
+  <head>
+    <title>Buy and Sell!</title>
+  </head>
+  <body>
+    <h1>Buy and Sell!!</h1>
+    This is it!
+  </body>
+</html>
+<html>
+  <head>
+    <title>My first page!</title>
+  </head>
+  <body>
+    <h1>Tim's page!!</h1>
+    This is it!
+    <br>
+    What part of your body do you want to focus on?
+    <br>
+    <input type="text" name="bodypart" >
+    <br>
+    <button name="send">Submit</button>
+    
+  </body>
+</html> 
+<html>
+  <head>
+    <title>My first page!</title>
+  </head>
+  <body>
+    <h1>Tim's page!!</h1>
+    This is it!
+  </body>
+</html>
