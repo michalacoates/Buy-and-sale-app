@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1 class="bg-primary">Buy and Sale history</h1>
+
+{% for review in reviews %}
+time: {{review.time}}
+<div class="bg-info">
+  {{review.goods}} .. {{review.quantity}} .. {{review.budget}} <br>
+  {{review.comments}}
+</div>
+<hr>
+{% endfor %}
+
+{% endblock %}
