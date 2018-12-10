@@ -25,7 +25,7 @@ items = {
         "Spicy Nacho Cheese Doritos" : [4.29, 1+"bag"],
         "Cool Ranch Doritos" :[4.29, 1+"bag"],
         "M&M Variety Pack" : [19.79, 18+"pack"]},
-    "supplies" : {},
+    "supplies" : {"Bic Pencils" : [9.89, 40+"pack"], []},
     "Ramen" : {}
 }
 
@@ -57,9 +57,9 @@ print(items["water"]["Poland Spring"][0])
     <input type="text" name="bodypart" >
     <br>
     <button name="send">Submit</button>
-    
+
   </body>
-</html> 
+</html>
 <html>
   <head>
     <title>My first page!</title>
